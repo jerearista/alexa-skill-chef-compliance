@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "CountUsers",
+      "samples": [
+        "How many users are there"
+      ],
+      "slots": []
+    },
+    {
+      "name": "getOwnerScans",
+      "samples": [
+        "List my scans",
+        "list my reports"
+      ],
+      "slots": []
+    },
+    {
+      "name": "getVersion",
+      "samples": [
+        "what version am I running",
+        "what version are you running",
+        "give me the version"
+      ],
+      "slots": []
+    },
+    {
+      "name": "ownerSummary",
+      "samples": [
+        "get my status"
+      ],
+      "slots": []
+    },
+    {
+      "name": "reportDetail",
+      "samples": [
+        "give me the last report details",
+        "how did the last run go",
+        "how was the last run"
+      ],
+      "slots": []
+    }
+  ]
+}
