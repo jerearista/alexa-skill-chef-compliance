@@ -17,8 +17,8 @@ For this demo, I did the following:
   - Paste the lambda code from the repo
   - Add 4 Environment variables
     - API_URL: https://ec2-aa-bb-cc-dd.compute-1.amazonaws.com/api
-    - USER: *Not implemented*
-    - AUTH_TOKEN: *Get this by logging into the Compliance server, then clicking the user’s avatar, then About
+    - USER: Used when retrieving your reports
+    - AUTH_TOKEN: *Get this by logging into the Compliance server, then clicking the user’s avatar, then About*
     - REFRESH_TOKEN: *Not implemented*
   - Role: Choose and existing role
   - Existing role: service-role/Lambda_basic_execution
